@@ -15,6 +15,18 @@ A Go-based parser for extracting installed packages and vulnerability informatio
 
 ## Installation
 
+### Option 1: Go Install (Recommended)
+
+```bash
+# Install directly from repository
+go install github.com/bahe-msft/oval-package-parser@latest
+
+# The binary will be available in your $GOPATH/bin
+oval-package-parser <file-or-url>
+```
+
+### Option 2: Build from Source
+
 ```bash
 # Clone the repository
 git clone <repository-url>
