@@ -1,4 +1,4 @@
-module oval-package-parser
+module github.com/bahe-msft/oval-package-parser
 
 go 1.24.1
 
